@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2d3861f0.css",
+    "main.js": "/static/js/main.5c755e2d.js",
+    "static/js/986.4f08efb2.chunk.js": "/static/js/986.4f08efb2.chunk.js",
+    "static/js/415.965a2c80.chunk.js": "/static/js/415.965a2c80.chunk.js",
+    "static/media/PokeballIcon.svg": "/static/media/PokeballIcon.2db7de44dd9ea6558c0113d7d9e3db9d.svg",
+    "static/media/Weight.svg": "/static/media/Weight.5b6ae8803dfeb3ad3f8547213444e8c5.svg",
+    "static/media/Pokeball.svg": "/static/media/Pokeball.abbfa8464e3c8b8d24380bd270a3f4b6.svg",
+    "index.html": "/index.html",
+    "static/media/Height.svg": "/static/media/Height.5245597dc6c3ec16ae60c7322d9b7b7d.svg",
+    "static/media/Star.svg": "/static/media/Star.61b1cf6de08df8700a61a056e7b2d692.svg",
+    "main.2d3861f0.css.map": "/static/css/main.2d3861f0.css.map",
+    "main.5c755e2d.js.map": "/static/js/main.5c755e2d.js.map",
+    "986.4f08efb2.chunk.js.map": "/static/js/986.4f08efb2.chunk.js.map",
+    "415.965a2c80.chunk.js.map": "/static/js/415.965a2c80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d3861f0.css",
+    "static/js/main.5c755e2d.js"
+  ]
+}
