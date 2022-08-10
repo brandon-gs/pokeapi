@@ -30,16 +30,3 @@ export const savePokemonCaptured = async (
     return res.status(500).json({ message: "Unexpected error" });
   }
 };
-
-export const getPokemonsCaptured = async (
-  req: Request,
-  res: Response
-): Promise<Response> => {
-  try {
-    const { username } = req.params as { username: string };
-    const pokemons = await PokemonModel.find({ username });
-    return res.status(200).json({ capturedPokemons: pokemons });
-  } catch (error) {
-    return res.status(500).json({ message: "Unexpected error" });
-  }
-};
