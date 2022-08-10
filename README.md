@@ -1,5 +1,11 @@
 # PokeApi
 
+## Demo version [here](https://bgspokemons.herokuapp.com/)
+
+With socket.io we can sync our clients when we catch a pokemon!
+
+![](docs/demo.gif)
+
 ## Getting started
 
 Install all modules for server and client apps
