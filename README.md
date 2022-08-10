@@ -8,6 +8,8 @@ With socket.io we can sync our clients when we catch a pokemon!
 
 ## Getting started
 
+You must have installed nodejs, and mongodb locally
+
 Install all modules for server and client apps
 
 ```bash

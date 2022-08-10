@@ -21,7 +21,7 @@ COPY --from=base /var/www/server/yarn.lock ./yarn.lock
 
 RUN yarn install --production
 
-ENV MONGODB_URI=$MONGODB_URI
+ENV MONGODB_URI="mongodb://localhost/bgspokemon"
 
 EXPOSE 3001
 
