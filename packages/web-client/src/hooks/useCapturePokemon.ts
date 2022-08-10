@@ -46,6 +46,7 @@ function useCapturePokemon(pokemons: IPokemonAdapted[]) {
   useEffect(() => {
     const username = getUsername();
     if (!username) return;
+
     socket.on(
       `set-captured-pokemons-${username}`,
       (pokemonsOnDB: Record<number, boolean>) => {
@@ -71,11 +72,17 @@ function useCapturePokemon(pokemons: IPokemonAdapted[]) {
     if (!username) return;
     if (pokemons.length === 0) return;
 
+    socket.off(`captured-pokemon-${username}`);
+
     socket.on(`captured-pokemon-${username}`, (pokemonId: number) => {
       const pokemonById = pokemons.filter(
         (pokemon) => pokemon.id === pokemonId
       );
-      toast(`You catched a ${pokemonById[0].name.toLocaleUpperCase()}`, {
+      const namePokemon =
+        pokemonById.length > 0
+          ? pokemonById[0].name.toLocaleUpperCase()
+          : "new pokemon";
+      toast(`You catched a ${namePokemon}`, {
         theme: "colored",
         type: "success",
         position: "top-right",
