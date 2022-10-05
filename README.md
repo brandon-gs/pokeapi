@@ -1,6 +1,6 @@
 # PokeApi
 
-## Demo version [ brandon-gs.github.io/pokeapi-client/ ]( brandon-gs.github.io/pokeapi-client/ )
+## Demo version [ brandon-gs.github.io/pokeapi-client/ ](https://brandon-gs.github.io/pokeapi-client/ )
 
 With socket.io we can sync our clients when we catch a pokemon!
 
